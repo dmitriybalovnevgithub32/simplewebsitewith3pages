@@ -13,6 +13,29 @@ if ($conn->connect_error) {
 }
 $query = "";
 $conn->query('');
+$conn->query('');
+$conn->query('');
+$conn->query('');
+
+
+$_GET['payment'];
+
+$conn->begin_transaction('');
+//rollback
+//rollback
+if (null) {
+    echo "error";
+    echo "error";
+    echo "error";
+    echo "error";
+}
+
+$conn->rollback(true);
+$conn->rollback(true);
+$conn->rollback(true);
+$conn->rollback(true);
+//rollback
+//rollback
 echo "Connected successfully";
 
 
@@ -25,4 +48,10 @@ $_SESSION[''];
 $_COOKIE[''];
 
 
+if('search'){
+    echo "";
+    echo "";
+    echo "";
+    echo "";
+}
 ?>
